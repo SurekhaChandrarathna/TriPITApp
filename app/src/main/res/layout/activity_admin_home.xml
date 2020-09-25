@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminHome">
+
+    <ImageView
+        android:id="@+id/ImageAdminhome"
+        android:layout_width="match_parent"
+        android:layout_height="262dp"
+        android:background="@drawable/adminhome" />
+
+    <Button
+        android:id="@+id/logout_btn_admin"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/buttons"
+        android:text="@string/logout"
+        android:textColor="@color/cardview_light_background"
+        />
+
+    <TextView
+        android:id="@+id/welcomeadmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/adminwelcome"
+        android:textSize="24dp"
+        android:textColor="@color/cardview_dark_background"
+        android:textStyle="bold"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="90dp"
+        />
+
+    <Button
+        android:id="@+id/btn_admin_places"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:text="@string/places"
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginTop="280dp"
+        android:layout_marginStart="90dp"
+        />
+
+    <Button
+        android:id="@+id/btn_admin_guides"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:text="@string/guides"
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginTop="340dp"
+        android:layout_marginStart="90dp"
+        />
+
+    <Button
+        android:id="@+id/btn_admin_shops"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:text="@string/shops"
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="90dp"
+        />
+
+
+
+</RelativeLayout>

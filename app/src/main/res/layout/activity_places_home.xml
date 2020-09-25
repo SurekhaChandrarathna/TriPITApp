@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlacesHome">
+
+    <ImageView
+        android:id="@+id/ImageAdminhome"
+        android:layout_width="match_parent"
+        android:layout_height="262dp"
+        android:background="@drawable/adminhome" />
+
+    <TextView
+        android:id="@+id/addplace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/places"
+        android:textSize="36dp"
+        android:textColor="@color/cardview_dark_background"
+        android:textStyle="bold"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="90dp"
+        />
+
+    <Button
+        android:id="@+id/btn_admin_add_places"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:text="@string/Addplace"
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        />
+
+
+</RelativeLayout>
