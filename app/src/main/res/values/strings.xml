@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">TripIT</string>
+    <string name="haveAcc">Already have an account?? LogIn</string>
+    <string name="joinnow">Join Now</string>
+    <string name="lg">Login</string>
+    <string name="logout"> Log Out</string>
+    <string name="forgotpass"> Forgot password</string>
+    <string name="adminpanel"> I am an admin</string>
+    <string name="notadminpanel"> I am not an admin</string>
+    <string name="remember">Remember Me</string>
+
+    <string name="Createaccount">Create Account</string>
+    <string name="name">Name</string>
+    <string name="adminwelcome">Welcome... Admin!!! :) </string>
+    <string name="places">Places</string>
+    <string name="guides">Guides</string>
+    <string name="shops">Shops</string>
+
+    <string name="place">Place</string>
+    <string name="address">Address</string>
+
+    <string name="Addplace">Add Place </string>
+    <string name="back">Back</string>
+    <string name="view">View Places</string>
+    <string name="edittextname">Name of the place</string>
+    <string name="edittextDistrict">District where the place is situated</string>
+    <string name="edittextdescription">Write a Description</string>
+    <string name="edittextaddress">Enter the address of the place</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="welcome">Hi there !!!!
+                           Welcome To TripIt.... :)</string>
+
+    <string name= "description">Description</string>
+</resources>
