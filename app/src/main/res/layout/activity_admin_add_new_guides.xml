@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminAddNewGuidesActivity">
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/EnterGuideDetails"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="11dp"
+        android:text="@string/EnterGuideDetailsLabel"
+        android:textColor="#3F51B5"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="83dp"
+        android:hint="@string/UplordPhotoHint"
+
+
+        />
+
+    <ImageView
+
+        android:id="@+id/select_guide_image"
+        android:layout_width="101dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/EnterGuideDetails"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="88dp"
+
+        android:layout_marginEnd="144dp"
+        android:background="@color/NewColour"
+        android:scaleType="centerCrop"
+        android:src="@drawable/userprofile" />
+
+    <EditText
+        android:id="@+id/guide_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/select_guide_image"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="45dp"
+        android:hint="@string/GuideNameHint"
+        android:inputType="textMultiLine"
+        android:padding="18dp"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/guide_con_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/guide_name"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="45dp"
+        android:hint="@string/GuidesTelHint"
+        android:inputType="textMultiLine"
+        android:padding="18dp"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/guide_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/guide_con_number"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="45dp"
+        android:hint="@string/GuidesAgeHint"
+        android:inputType="textMultiLine"
+        android:padding="18dp"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/guide_experiance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/guide_age"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="45dp"
+        android:hint="@string/GuidesExperianceHint"
+        android:inputType="textMultiLine"
+        android:padding="18dp"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/guide_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/guide_experiance"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="45dp"
+        android:hint="@string/AmountPerdayHint"
+        android:inputType="textMultiLine"
+        android:padding="18dp"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <Button
+
+        android:id="@+id/add_new_guide"
+        android:layout_width="213dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/guide_amount"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="77dp"
+
+        android:layout_marginRight="45dp"
+        android:background="#3D55F3"
+        android:text="@string/AddguideButton"
+
+
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

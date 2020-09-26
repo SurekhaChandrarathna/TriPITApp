@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="555dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:layout_marginLeft="20dp"
+    app:cardElevation="15dp"
+    tools:context=".EditGuideDetailsActivity">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="566dp"
+        android:background="#B4D6F1">
+
+
+        <TextView
+
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="13dp"
+
+
+            android:layout_marginEnd="18dp"
+            android:text="@string/EnterChangeDetailsLabel"
+            android:textColor="@color/color1"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <ImageView
+
+            android:id="@+id/myguide_image_maintain"
+            android:layout_width="111dp"
+            android:layout_height="102dp"
+            android:layout_below="@+id/guidesCatagory"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="40dp"
+
+
+
+            android:layout_marginEnd="115dp"
+            android:scaleType="centerCrop" />
+
+        <EditText
+
+            android:id="@+id/guideName_maintain"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/myguide_image_maintain"
+            android:layout_alignParentEnd="true"
+
+
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="5dp"
+            android:hint="Guide Name"
+
+            android:padding="12dp"
+            android:textColor="@android:color/black"
+            android:textColorHighlight="@android:color/darker_gray"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <EditText
+
+            android:id="@+id/guideConNumber_maintain"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/guideName_maintain"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="8dp"
+
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="5dp"
+            android:hint="Guide contact number"
+
+            android:padding="12dp"
+            android:textColor="@android:color/black"
+            android:textColorHighlight="@android:color/darker_gray"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <EditText
+
+            android:id="@+id/guideAge_maintain"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/guideConNumber_maintain"
+            android:layout_alignParentEnd="true"
+
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="5dp"
+            android:hint="Guide's Age"
+
+            android:padding="12dp"
+            android:textColor="@android:color/black"
+            android:textColorHighlight="@android:color/darker_gray"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <EditText
+
+            android:id="@+id/guideExperiance_maintain"
+            android:layout_width="297dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/guideAge_maintain"
+            android:layout_alignParentEnd="true"
+
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginBottom="5dp"
+            android:hint="Guide's Experiance"
+
+            android:padding="12dp"
+            android:textColor="@android:color/black"
+            android:textColorHighlight="@android:color/darker_gray"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <EditText
+
+            android:id="@+id/guideAmount_maintain"
+            android:layout_width="297dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/guideExperiance_maintain"
+            android:layout_alignParentStart="true"
+
+            android:layout_marginStart="19dp"
+
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+
+            android:hint="Amount per-day"
+            android:padding="12dp"
+            android:textColor="@android:color/black"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <Button
+
+            android:id="@+id/editGuideDetailBtn"
+            android:layout_width="297dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/guideAmount_maintain"
+            android:layout_alignParentEnd="true"
+
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="22dp"
+            android:layout_marginBottom="5dp"
+            android:background="#3D55F3"
+            android:hint="@string/ApplyChangesButton"
+
+
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="@android:color/darker_gray"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <Button
+
+            android:id="@+id/deleteGuideDetailBtn"
+            android:layout_width="297dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/editGuideDetailBtn"
+            android:layout_alignParentEnd="true"
+
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="22dp"
+            android:layout_marginBottom="5dp"
+            android:background="#3D55F3"
+            android:hint="@string/DeleteThisGuideButton"
+
+
+            android:padding="12dp"
+            android:textColor="@android:color/background_light"
+            android:textColorHighlight="@android:color/darker_gray"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

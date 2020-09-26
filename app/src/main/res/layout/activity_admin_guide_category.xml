@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminGuideCategoryActivity">
+
+
+    <TextView
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+
+
+        android:layout_marginEnd="47dp"
+        android:text="@string/WelcomeToGuideManagementLabel"
+        android:textColor="#3F51B5"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/guides_category"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="129dp"
+
+        android:layout_marginEnd="22dp"
+        android:text="@string/SelectGuideTypeLabel"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+
+        android:id="@+id/liner_Guidecategory_layout"
+        android:layout_width="382dp"
+        android:layout_height="194dp"
+        android:layout_below="@+id/guides_category"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="4dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/withVehicals"
+            android:layout_width="166dp"
+            android:layout_height="229dp"
+            android:src="@drawable/newwithvehical"></ImageView>
+
+        <ImageView
+            android:id="@+id/withOutVehicals"
+            android:layout_width="160dp"
+            android:layout_height="246dp"
+            android:src="@drawable/newwithout"></ImageView>
+
+
+    </LinearLayout>
+
+    <Button
+
+        android:id="@+id/guideMaintain"
+        android:layout_width="292dp"
+        android:layout_height="29dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="20dp"
+
+        android:layout_marginBottom="91dp"
+
+
+        android:background="#3D55F3"
+        android:text="@string/MaintainGuidesButton"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+
+        android:id="@+id/maintain_guides"
+        android:layout_width="292dp"
+        android:layout_height="29dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="20dp"
+
+
+        android:layout_marginBottom="55dp"
+        android:background="#3D55F3"
+        android:text="@string/ViewAllGuideDetailsButton"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="UnknownId" />
+
+
+</RelativeLayout>

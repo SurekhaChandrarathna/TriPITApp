@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "962819797473",
+    "firebase_url": "https://guides-28aaf.firebaseio.com",
+    "project_id": "guides-28aaf",
+    "storage_bucket": "guides-28aaf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962819797473:android:4495f532776f78d3e662a0",
+        "android_client_info": {
+          "package_name": "com.example.guides"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962819797473-thmo8hb9ggvgfan0pvst7u8u8lov62h7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.guides",
+            "certificate_hash": "35990832ceb497ad207899d0dc99581c4b7bdccd"
+          }
+        },
+        {
+          "client_id": "962819797473-nkpg2l0aih5uhm2a5fhl327p4lg4ec7i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrdos9mMp_hdsi6l6jFq60hSW7TYQAB-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "962819797473-nkpg2l0aih5uhm2a5fhl327p4lg4ec7i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
