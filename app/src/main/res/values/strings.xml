@@ -11,10 +11,11 @@
 
     <string name="Createaccount">Create Account</string>
     <string name="name">Name</string>
-    <string name="adminwelcome">Welcome... Admin!!! :) </string>
+    <string name="adminwelcome">Welcome.. </string>
     <string name="places">Places</string>
     <string name="guides">Guides</string>
     <string name="shops">Shops</string>
+    <string name="hotels">Hotels</string>
 
     <string name="place">Place</string>
     <string name="address">Address</string>

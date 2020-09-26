@@ -4,13 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AdminHome">
+    tools:context=".AdminHome"
+    android:background="@drawable/adminhome"
+    >
 
-    <ImageView
-        android:id="@+id/ImageAdminhome"
-        android:layout_width="match_parent"
-        android:layout_height="262dp"
-        android:background="@drawable/adminhome" />
+    <TextView
+        android:id="@+id/welcomeadmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/adminwelcome"
+        android:textSize="25dp"
+        android:textColor="@color/cardview_dark_background"
+        android:textStyle="bold"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="30dp"
+        />
+
 
     <Button
         android:id="@+id/logout_btn_admin"
@@ -21,51 +30,68 @@
         android:background="@drawable/buttons"
         android:text="@string/logout"
         android:textColor="@color/cardview_light_background"
+        android:textStyle="bold"
         />
 
-    <TextView
-        android:id="@+id/welcomeadmin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/adminwelcome"
-        android:textSize="24dp"
-        android:textColor="@color/cardview_dark_background"
-        android:textStyle="bold"
-        android:layout_marginTop="150dp"
-        android:layout_marginStart="90dp"
-        />
 
     <Button
         android:id="@+id/btn_admin_places"
-        android:layout_width="235dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/buttons"
+        android:background="@drawable/input_design"
         android:text="@string/places"
-        android:textColor="@color/cardview_light_background"
-        android:layout_marginTop="280dp"
-        android:layout_marginStart="90dp"
+        android:textColor="@color/colorblue"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_below="@+id/welcomeadmin"
+        android:textStyle="bold"
+        android:textSize="16dp"
         />
 
     <Button
         android:id="@+id/btn_admin_guides"
-        android:layout_width="235dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/buttons"
+        android:background="@drawable/input_design"
         android:text="@string/guides"
-        android:textColor="@color/cardview_light_background"
-        android:layout_marginTop="340dp"
-        android:layout_marginStart="90dp"
+        android:textColor="@color/colorblue"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_below="@+id/btn_admin_places"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        />
+
+    <Button
+        android:id="@+id/btn_admin_hotels"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_design"
+        android:text="@string/hotels"
+        android:textColor="@color/colorblue"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_below="@+id/btn_admin_guides"
+        android:textStyle="bold"
+        android:textSize="16dp"
         />
 
     <Button
         android:id="@+id/btn_admin_shops"
-        android:layout_width="235dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/buttons"
+        android:background="@drawable/input_design"
         android:text="@string/shops"
-        android:textColor="@color/cardview_light_background"
-        android:layout_marginTop="400dp"
-        android:layout_marginStart="90dp"
+        android:textColor="@color/colorblue"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_below="@+id/btn_admin_hotels"
+        android:textStyle="bold"
+        android:textSize="16dp"
         />
 
 

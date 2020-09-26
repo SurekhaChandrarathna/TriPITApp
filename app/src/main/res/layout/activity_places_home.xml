@@ -4,13 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PlacesHome">
+    tools:context=".PlacesHome"
+    android:background="@drawable/adminhome"
+    >
 
-    <ImageView
-        android:id="@+id/ImageAdminhome"
-        android:layout_width="match_parent"
-        android:layout_height="262dp"
-        android:background="@drawable/adminhome" />
+
 
     <TextView
         android:id="@+id/addplace"

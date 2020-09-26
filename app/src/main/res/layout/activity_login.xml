@@ -78,16 +78,6 @@
             android:layout_marginLeft="17dp"
             />
 
-        <TextView
-            android:id="@+id/forget_password"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/forgotpass"
-            android:textColor="@color/colorblue"
-            android:textSize="17sp"
-            android:textStyle="bold"
-            android:layout_marginLeft="80dp"
-            />
 
     </LinearLayout>
 
