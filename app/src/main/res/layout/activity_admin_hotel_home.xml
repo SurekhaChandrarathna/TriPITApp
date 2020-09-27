@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminHotelHome">
+
+    <TextView
+        android:id="@+id/addhotels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Hotels"
+        android:textSize="36dp"
+        android:textColor="@color/cardview_dark_background"
+        android:textStyle="bold"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="90dp"
+        />
+
+    <Button
+        android:id="@+id/btn_admin_add_hotels"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:text="@string/addHotel"
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        />
+
+    <Button
+        android:id="@+id/btn_admin_manage_hotels"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:text="@string/managehotels"
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_below="@+id/btn_admin_add_hotels"
+        />
+
+</RelativeLayout>

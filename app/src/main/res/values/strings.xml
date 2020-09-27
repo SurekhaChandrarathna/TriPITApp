@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Hotels</string>
+
+
+    <string name="addHotel"> Add hotel</string>
+    <string name="Hotels"> Hotels</string>
+    <string name="managehotels"> Manage Hotels</string>
+
+    <string name="hotel">Hotel</string>
+    <string name="address">Address</string>
+
+    <string name="edittexthotelname">Name of the hotel</string>
+    <string name="edittexthoteldescription">About the Hotel</string>
+    <string name="edittexthoteladdress">Address of  the Hotel</string>
+    <string name="edittexthotelcontact">Contact numbers</string>
+</resources>
