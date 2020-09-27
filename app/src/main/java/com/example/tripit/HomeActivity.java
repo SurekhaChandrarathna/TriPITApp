@@ -12,7 +12,7 @@ import io.paperdb.Paper;
 
 public class HomeActivity extends AppCompatActivity
 {
-    private Button placesButtonUser , guidesButtonUser, shopsButtonUser;
+    private Button placesButtonUser , guidesButtonUser, shopsButtonUser , hotelsButtonUser;
     private ImageButton LogOutUser;
 
     @Override
@@ -24,6 +24,7 @@ public class HomeActivity extends AppCompatActivity
         placesButtonUser= (Button)findViewById(R.id.btn_user_places);
         guidesButtonUser= (Button)findViewById(R.id.btn_user_guides);
         shopsButtonUser= (Button)findViewById(R.id.btn_user_shop);
+        hotelsButtonUser= (Button)findViewById(R.id.btn_user_hotels);
         LogOutUser= (ImageButton) findViewById(R.id.imgBtnLogOut);
 
         //logging out the user
@@ -50,9 +51,19 @@ public class HomeActivity extends AppCompatActivity
         });
 
         //navigate page into  guides page
-
+        guidesButtonUser.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Intent intent = new Intent(HomeActivity.this, GuideHome.class);
+                startActivity(intent);
+            }
+        });
 
         //navigate page into  shops page
+
+        //navigate page into hotels page
 
     }
 }

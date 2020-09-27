@@ -12,7 +12,7 @@ import io.paperdb.Paper;
 
 public class AdminHome extends AppCompatActivity
 {
-    Button LogoutButtonAdmin, placesButtonAdmin , guidesButtonAdmin , shopsButtonAdmin;
+    Button LogoutButtonAdmin, placesButtonAdmin , guidesButtonAdmin , shopsButtonAdmin, hotelsButtonAdmin;
 
 
     @Override
@@ -24,6 +24,7 @@ public class AdminHome extends AppCompatActivity
         LogoutButtonAdmin= (Button)findViewById(R.id.logout_btn_admin);
         placesButtonAdmin= (Button)findViewById(R.id.btn_admin_places);
         guidesButtonAdmin= (Button)findViewById(R.id.btn_admin_guides);
+        hotelsButtonAdmin= (Button)findViewById(R.id.btn_admin_hotels);
         shopsButtonAdmin= (Button)findViewById(R.id.btn_admin_shops);
 
 
@@ -55,9 +56,20 @@ public class AdminHome extends AppCompatActivity
 
 
         //Navigate to guides page where admin do "guides" related changes
+        guidesButtonAdmin.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Intent intent = new Intent(AdminHome.this,AdminGuideCategoryActivity.class);
+                startActivity(intent);
+            }
+        });
 
 
         //Navigate to shops page where admin do "shops" related changes
+
+        //Navigate to hotels page where admin do "shops" related changes
 
     }
 }

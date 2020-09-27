@@ -1,6 +1,8 @@
 package com.example.tripit.ViewHolder;
 
 import android.view.View;
+import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -15,6 +17,8 @@ public class PlaceViewHolder extends RecyclerView.ViewHolder implements View.OnC
     public TextView txtPlaceName, txtPlaceAddress;
     public ImageView imageView;
     public PlaceClickListner listner;
+
+
 
     public PlaceViewHolder(@NonNull View itemView)
     {

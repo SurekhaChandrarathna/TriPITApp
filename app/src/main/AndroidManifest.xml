@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".MaintainGuidesActivity"></activity>
+        <activity android:name=".GuideHome" />
+        <activity android:name=".EditGuideDetailsActivity" />
+        <activity android:name=".AdminAddNewGuidesActivity" />
+        <activity android:name=".AdminGuideCategoryActivity" />
         <activity android:name=".PlaceDetailsActivity" />
         <activity android:name=".PlacesHomeUser" />
         <activity android:name=".AddPlacesActivity" />

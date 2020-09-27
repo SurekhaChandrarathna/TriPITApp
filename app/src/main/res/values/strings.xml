@@ -35,5 +35,27 @@
     <string name="welcome">Hi there !!!!
                            Welcome To TripIt.... :)</string>
 
-    <string name= "description">Description</string>
+    <string name="description">Description</string>
+
+
+    <string name="guidewithvehical">Guide With Vehical</string>
+    <string name="guideonly">Guide Only</string>
+    <string name="AddGuideLabel">"  Select the type to add a new member.."</string>
+    <string name="WithVehicalLabel">Guide with vehical</string>
+    <string name="OnlyGuideLabel">Only Guide</string>
+    <string name="MaintainGuidesButton">MAINTAIN GUIDES</string>
+    <string name="ViewAllGuideDetailsButton">VIEW ALL GUIDE\'S DETAILS</string>
+    <string name="EnterGuideDetailsLabel">-ADD NEW GUIDE-</string>
+    <string name="UplordPhotoHint">Uploard your photo:</string>
+    <string name="GuideNameHint">Guide\'s Name..</string>
+    <string name="GuidesTelHint">Guide\'s Telephone Number...</string>
+    <string name="GuidesAgeHint">Guide\'s Age</string>
+    <string name="GuidesExperianceHint">Guide\'s Experiance</string>
+    <string name="AmountPerdayHint">Amount Per-day</string>
+    <string name="AddguideButton">Add Guide</string>
+    <string name="WelcomeToGuideManagementLabel">WELCOME TO GUIDE\'S MANAGEMENT..!</string>
+    <string name="SelectGuideTypeLabel">Select the type to add a new guide...</string>
+    <string name="EnterChangeDetailsLabel">Enter the details which you want to change....</string>
+    <string name="ApplyChangesButton">Apply Changes</string>
+    <string name="DeleteThisGuideButton">Delete This Guide</string>
 </resources>

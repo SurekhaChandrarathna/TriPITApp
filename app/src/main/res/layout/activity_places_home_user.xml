@@ -6,10 +6,32 @@
     android:layout_height="match_parent"
     tools:context=".PlacesHomeUser">
 
+    <EditText
+        android:id="@+id/searchPlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="25dp"
+        android:padding="13dp"
+        android:layout_marginTop="10dp"
+        android:hint="search place"
+        android:textColorHint="@color/cardview_dark_background"
+        android:textColor="@color/cardview_dark_background"
+        android:background="@drawable/input_design"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_menu"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="67dp"
         />
+
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
