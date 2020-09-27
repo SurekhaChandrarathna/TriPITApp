@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Hotels</string>
+    <string name="name">Name</string>
+    <string name="description"> About Hotel....</string>
 
 
     <string name="addHotel"> Add hotel</string>

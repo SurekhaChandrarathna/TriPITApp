@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".HotelUserActivity">
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_menu_hotel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
