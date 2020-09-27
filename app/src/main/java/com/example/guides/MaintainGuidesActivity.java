@@ -63,7 +63,7 @@ public class MaintainGuidesActivity extends AppCompatActivity {
                     @Override
                     protected void onBindViewHolder(@NonNull GuideViwHolder holder, int position, @NonNull final Guides model) {
 
-                        holder.txtguidesCatagory.setText( model.getCategory());
+                        holder.txtguidesCatagory.setText("Type :  " +  model.getCategory());
                         holder.txtGuideName.setText("Guide's Name :  " + model.getGuidename());
                         holder.txtGuideAge.setText("Guide's Age :  " + model.getGuideage());
                         holder.txtGuideContactNumber.setText("Guide's Contactnumber :  " + model.getGuidecontactnumber());

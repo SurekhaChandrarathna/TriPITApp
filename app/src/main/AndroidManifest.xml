@@ -12,7 +12,6 @@
         <activity android:name=".EditGuideDetailsActivity"></activity>
         <activity android:name=".MaintainGuidesActivity" />
         <activity android:name=".GuideHome" />
-        <activity android:name=".Testing" />
         <activity android:name=".AdminGuideCategoryActivity" />
         <activity android:name=".AdminAddNewGuidesActivity" />
         <activity android:name=".MainActivity">

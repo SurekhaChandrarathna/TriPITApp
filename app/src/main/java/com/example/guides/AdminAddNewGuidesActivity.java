@@ -155,7 +155,7 @@ public class AdminAddNewGuidesActivity extends AppCompatActivity {
     {
 
         loadingBar.setTitle("login Guides");
-        loadingBar.setMessage("Please wait until we are adding new guide..");
+        loadingBar.setMessage("Please wait until we are adding new guide to the system...");
         loadingBar.setCanceledOnTouchOutside(false);
         loadingBar.show();
 
