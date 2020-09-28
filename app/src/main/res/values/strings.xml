@@ -24,6 +24,7 @@
     <string name="EnterChangeDetailsLabel">Enter the details which you want to change....</string>
     <string name="ApplyChangesButton">Apply Changes</string>
     <string name="DeleteThisGuideButton">Delete This Guide</string>
+    <string name="CustomerHome">Customer Home</string>
 
     <string-array name="navigation">
         <item>Places</item>
