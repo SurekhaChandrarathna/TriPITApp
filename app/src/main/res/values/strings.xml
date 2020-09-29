@@ -15,4 +15,9 @@
     <string name="edittexthoteldescription">About the Hotel</string>
     <string name="edittexthoteladdress">Address of  the Hotel</string>
     <string name="edittexthotelcontact">Contact numbers</string>
+
+
+    <string name="AddANewHotel">Add a new hotel</string>
+    <string name="TouchHere">Touch Here to upload a photo</string>
+
 </resources>
