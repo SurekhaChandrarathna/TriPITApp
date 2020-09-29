@@ -10,6 +10,7 @@ import android.widget.Button;
 public class AdminHotelHome extends AppCompatActivity
 {
     private Button btnAddHotel ;
+    private Button btnManageHotel;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -18,6 +19,7 @@ public class AdminHotelHome extends AppCompatActivity
         setContentView(R.layout.activity_admin_hotel_home);
 
         btnAddHotel= (Button)findViewById(R.id.btn_admin_add_hotels);
+        btnManageHotel= (Button) findViewById(R.id.btn_admin_manage_hotels);
 
         btnAddHotel.setOnClickListener(new View.OnClickListener()
         {

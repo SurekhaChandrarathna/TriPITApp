@@ -15,7 +15,7 @@
         android:textColor="@color/cardview_dark_background"
         android:textStyle="bold"
         android:layout_marginTop="150dp"
-        android:layout_marginStart="90dp"
+        android:layout_marginLeft="90dp"
         />
 
     <Button
