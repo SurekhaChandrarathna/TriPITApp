@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:backgroundTint="?android:attr/textColorHintInverse"
+    tools:context=".AddNew">
+
+    <TextView
+        android:id="@+id/topic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter The Details Of The Item"
+
+
+        android:textAlignment="center"
+        android:textColor="?android:attr/statusBarColor"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+
+    <ImageView
+        android:id="@+id/select_image"
+        android:layout_width="304dp"
+        android:layout_height="157dp"
+        android:layout_below="@id/topic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/i3"
+
+        />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/select_image"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/input_design"
+        android:hint="Item Number....."
+        android:inputType="textMultiLine"
+        android:padding="12dp"
+        android:textColorHint="?android:attr/navigationBarColor"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/input_design"
+        android:hint="Price (Rs.)..."
+        android:inputType="textMultiLine"
+        android:padding="12dp"
+        android:textSize="14sp"
+        android:textColorHint="@android:color/black" />
+
+    <EditText
+        android:id="@+id/size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/price"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/input_design"
+        android:hint="Description..."
+        android:inputType="textMultiLine"
+        android:padding="12dp"
+        android:textSize="14sp"
+        android:textColorHint="?android:attr/colorForeground" />
+
+    <EditText
+        android:id="@+id/quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/size"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/input_design"
+        android:hint="Quantity...."
+        android:inputType="textMultiLine"
+        android:padding="12dp"
+        android:textSize="14sp"
+        android:textColorHint="@android:color/background_dark" />
+
+    <Button
+        android:id="@+id/Add"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/quantity"
+        android:layout_marginStart="53dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/buttons"
+        android:gravity="center"
+        android:padding="17dp"
+        android:text="Add Item"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>

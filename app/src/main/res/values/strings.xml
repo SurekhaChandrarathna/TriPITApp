@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Shops</string>
+
+    <string name="category"> Item Category</string>
+    <string name="price">Price</string>
+    <string name="descriptionItem">Item Description</string>
+</resources>
