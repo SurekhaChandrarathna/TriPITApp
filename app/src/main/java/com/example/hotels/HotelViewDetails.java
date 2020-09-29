@@ -32,11 +32,11 @@ public class HotelViewDetails extends AppCompatActivity
         hotelDetailAddress= (TextView)findViewById(R.id.hotel_detail_address);
         hotelDetailAbout= (TextView)findViewById(R.id.hotel_detail_description);
 
-        ShowHotelDetails();
+        ShowHotelDetails(HotelName);
 
     }
 
-    private void ShowHotelDetails()
+    private void ShowHotelDetails(String HotelName)
     {
         DatabaseReference hotelReference = FirebaseDatabase.getInstance().getReference().child("Hotels");
 
