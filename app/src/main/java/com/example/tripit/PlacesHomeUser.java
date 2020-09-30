@@ -64,7 +64,7 @@ public class PlacesHomeUser extends AppCompatActivity {
             @Override
             public void afterTextChanged(Editable s) {
 
-                if(s.toString()!= null)
+                if(!((s.toString()) == null))
                 {
                     LoadData(s.toString());
                 }
@@ -75,12 +75,12 @@ public class PlacesHomeUser extends AppCompatActivity {
 
             }
         });
-
+        //new for search
 
     }
 
 
-// view details
+//view details
     @Override
     protected void onStart()
     {

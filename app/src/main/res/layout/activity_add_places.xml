@@ -18,15 +18,27 @@
         android:textColor="@color/colorblue"
         />
 
+    <TextView
+        android:id="@+id/addplaceicon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add"
+        android:layout_marginTop="10dp"
+        android:text="Touch the icon to upload a photo"
+        android:layout_marginLeft="35dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorblue"
+        />
+
     <ImageView
         android:id="@+id/image"
-        android:layout_width="300dp"
+        android:layout_width="200dp"
         android:layout_height="140dp"
-        android:layout_below="@+id/add"
+        android:layout_below="@+id/addplaceicon"
         android:layout_marginTop="10dp"
         android:cropToPadding="false"
         android:scaleType="centerCrop"
-        android:background="@drawable/addplace"
+        android:background="@drawable/places"
         android:layout_centerHorizontal="true"
         />
 

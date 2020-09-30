@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MaintainGuidesActivity"></activity>
+        <activity android:name=".HotelViewDetails"></activity>
+        <activity android:name=".HotelUserActivity" />
+        <activity android:name=".AddHotelActivity" />
+        <activity android:name=".AdminHotelHome" />
+        <activity android:name=".MaintainGuidesActivity" />
         <activity android:name=".GuideHome" />
         <activity android:name=".EditGuideDetailsActivity" />
         <activity android:name=".AdminAddNewGuidesActivity" />

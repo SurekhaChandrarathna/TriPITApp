@@ -64,6 +64,16 @@ public class HomeActivity extends AppCompatActivity
         //navigate page into  shops page
 
         //navigate page into hotels page
+        hotelsButtonUser.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Intent intent = new Intent(HomeActivity.this, HotelUserActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
     }
 }

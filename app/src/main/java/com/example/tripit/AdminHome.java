@@ -70,6 +70,14 @@ public class AdminHome extends AppCompatActivity
         //Navigate to shops page where admin do "shops" related changes
 
         //Navigate to hotels page where admin do "shops" related changes
-
+        hotelsButtonAdmin.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Intent intent = new Intent(AdminHome.this,AdminHotelHome.class);
+                startActivity(intent);
+            }
+        });
     }
 }

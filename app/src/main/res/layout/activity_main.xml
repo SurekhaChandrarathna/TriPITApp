@@ -4,28 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
+    android:background="@drawable/tripitapp"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/img1"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/trip"
-        />
+
 
     <Button
         android:id="@+id/min_login_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/buttons"
-        android:padding="20dp"
+        android:padding="15dp"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="23dp"
         android:layout_marginRight="23dp"
         android:layout_below="@+id/min_join_button"
         android:text="@string/haveAcc"
         android:textColor="@android:color/background_light"
-        android:textSize="16sp"
+        android:textSize="15sp"
          />
 
     <Button
@@ -36,7 +32,7 @@
         android:text="@string/joinnow"
         android:layout_marginLeft="23dp"
         android:layout_marginRight="23dp"
-        android:textColor="@color/colorblue"
+        android:textColor="@color/cardview_light_background"
         android:textSize="24sp"
         android:layout_marginTop="10dp"
         android:layout_below="@+id/imageView5"
@@ -47,6 +43,6 @@
         android:layout_width="292dp"
         android:layout_height="285dp"
         android:layout_marginTop="20dp"
-        android:layout_marginLeft="60dp"
+        android:layout_marginLeft="80dp"
         app:srcCompat="@drawable/logo" />
 </RelativeLayout>

@@ -119,7 +119,7 @@ public class AddPlacesActivity extends AppCompatActivity
 
         if(ImageUri == null)
         {
-            Toast.makeText(this, "A Image of the place is mandatory i", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "A Image of the place is mandatory", Toast.LENGTH_SHORT).show();
         }
 
         else if (TextUtils.isEmpty(name))
