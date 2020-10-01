@@ -21,6 +21,7 @@
     <string name="address">Address</string>
 
     <string name="Addplace">Add Place </string>
+    <string name="viewplaces">View Places</string>
     <string name="back">Back</string>
     <string name="view">View Places</string>
     <string name="edittextname">Name of the place</string>

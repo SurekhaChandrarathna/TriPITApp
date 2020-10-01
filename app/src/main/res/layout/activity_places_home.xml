@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PlacesHome"
-    android:background="@drawable/adminhome"
+    android:background="@drawable/userhome"
     >
 
 
@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:text="@string/places"
         android:textSize="36dp"
-        android:textColor="@color/cardview_dark_background"
+        android:textColor="@android:color/background_dark"
         android:textStyle="bold"
         android:layout_marginTop="150dp"
         android:layout_marginStart="90dp"
@@ -32,6 +32,29 @@
         android:layout_marginTop="350dp"
         android:layout_marginLeft="60dp"
         android:layout_marginRight="60dp"
+        />
+
+    <Button
+        android:id="@+id/btn_admin_view_places"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:text="@string/viewplaces"
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_below="@+id/btn_admin_add_places"
+        />
+
+    <ImageButton
+        android:id="@+id/admin_backto_home"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/home"
+        android:layout_marginLeft="290dp"
+
+        android:layout_marginTop="20dp"
         />
 
 

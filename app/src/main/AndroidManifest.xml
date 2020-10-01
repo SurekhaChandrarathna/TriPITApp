@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HotelViewDetails"></activity>
+        <activity android:name=".PlaceListAdmin"></activity>
+        <activity android:name=".HotelViewDetails" />
         <activity android:name=".HotelUserActivity" />
         <activity android:name=".AddHotelActivity" />
         <activity android:name=".AdminHotelHome" />
