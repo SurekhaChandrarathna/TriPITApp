@@ -30,7 +30,7 @@
         android:background="@drawable/input_design"
         android:hint="@string/name"
         android:padding="15dp"
-        android:textColor="@color/colorblue"
+        android:textColor="#ffff"
         android:textColorHint="@color/colorblue"
         android:textSize="17sp"
         android:textStyle="bold" />
@@ -47,7 +47,7 @@
         android:hint="phone number"
         android:inputType="number"
         android:padding="15dp"
-        android:textColor="@color/colorblue"
+        android:textColor="#ffff"
         android:textColorHint="@color/colorblue"
         android:textSize="17sp"
         android:textStyle="bold" />
@@ -63,7 +63,7 @@
         android:background="@drawable/input_design"
         android:hint="password"
         android:inputType="textPassword"
-        android:textColor="@color/colorblue"
+        android:textColor="#ffff"
         android:textColorHint="@color/colorblue"
         android:textSize="17sp"
         android:textStyle="bold"
