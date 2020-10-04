@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
                 if(snapshot.child("Users").child(phone).exists()){
                     Users usersData = snapshot.child("Users").child(phone).getValue(Users.class);
 
-                    if(usersData.getPhone().equals(phone)){
+                    if(usersData.getphone().equals(phone)){
 
                         if(usersData.getPassword().equals(password)){
                             Toast.makeText(MainActivity.this, "Logged in successfully", Toast.LENGTH_SHORT).show();

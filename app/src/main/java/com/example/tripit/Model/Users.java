@@ -23,11 +23,11 @@ public class Users {
         this.name = name;
     }
 
-    public String getPhone() {
+    public String getphone() {
         return phone;
     }
 
-    public void setPhone(String phone) {
+    public void setphone(String phone) {
         this.phone = phone;
     }
 

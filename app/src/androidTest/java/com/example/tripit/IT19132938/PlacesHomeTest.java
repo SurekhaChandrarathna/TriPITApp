@@ -1,9 +1,15 @@
-package com.example.tripit;
+package com.example.tripit.IT19132938;
 
 import android.app.Activity;
 import android.app.Instrumentation;
 
 import androidx.test.rule.ActivityTestRule;
+
+import com.example.tripit.AddPlacesActivity;
+import com.example.tripit.AdminHome;
+import com.example.tripit.PlaceListAdmin;
+import com.example.tripit.PlacesHome;
+import com.example.tripit.R;
 
 import org.junit.After;
 import org.junit.Before;

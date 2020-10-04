@@ -34,6 +34,7 @@ public class AdminHome extends AppCompatActivity
             @Override
             public void onClick(View view)
             {
+
                 Paper.book().destroy();
 
                 Intent intent = new Intent(AdminHome.this,MainActivity.class);
@@ -68,6 +69,16 @@ public class AdminHome extends AppCompatActivity
 
 
         //Navigate to shops page where admin do "shops" related changes
+        shopsButtonAdmin.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Intent intent = new Intent(AdminHome.this,AddItems_2nd_Shops.class);
+                startActivity(intent);
+            }
+        });
+
 
         //Navigate to hotels page where admin do "shops" related changes
         hotelsButtonAdmin.setOnClickListener(new View.OnClickListener()

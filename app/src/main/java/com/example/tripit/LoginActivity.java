@@ -127,7 +127,7 @@ public class LoginActivity extends AppCompatActivity {
                 if(snapshot.child(parentDbName).child(phone).exists()){
                     Users usersData = snapshot.child(parentDbName).child(phone).getValue(Users.class);
 
-                    if(usersData.getPhone().equals(phone)){
+                    if(usersData.getphone().equals(phone)){
 
                         if(usersData.getPassword().equals(password)){
 
@@ -143,6 +143,8 @@ public class LoginActivity extends AppCompatActivity {
 
                             else if(parentDbName.equals("Users"))
                             {
+                                Prevalent.currentOnlineUser.setphone(phone);
+
                                 Toast.makeText(LoginActivity.this, "Logged in successfully", Toast.LENGTH_SHORT).show();
                                 loadingBar.dismiss();
 

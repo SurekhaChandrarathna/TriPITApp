@@ -1,9 +1,14 @@
-package com.example.tripit;
+package com.example.tripit.IT19132938;
 
 import android.app.Activity;
 import android.app.Instrumentation;
 
 import androidx.test.rule.ActivityTestRule;
+
+import com.example.tripit.LoginActivity;
+import com.example.tripit.MainActivity;
+import com.example.tripit.R;
+import com.example.tripit.RegisterActivity;
 
 import org.junit.After;
 import org.junit.Before;

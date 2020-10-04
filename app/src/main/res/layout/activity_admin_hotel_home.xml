@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminHotelHome"
+    android:background="@drawable/userhome"
+    >
+
+    <TextView
+        android:id="@+id/addhotels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Hotels"
+        android:textSize="36dp"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="90dp"
+        />
+
+    <Button
+        android:id="@+id/btn_admin_add_hotels"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:text="@string/addHotel"
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        />
+
+    <ImageButton
+        android:id="@+id/admin_backto_home"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/home"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+</RelativeLayout>

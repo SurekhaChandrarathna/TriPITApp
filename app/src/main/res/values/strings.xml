@@ -33,8 +33,7 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
-    <string name="welcome">Hi there !!!!
-                           Welcome To TripIt.... :)</string>
+    <string name="welcome">Hi there !!!! Welcome To TripIt.... </string>
 
     <string name="description">Description</string>
 
@@ -71,4 +70,10 @@
     <string name="edittexthoteladdress">Address of  the Hotel</string>
     <string name="edittexthotelcontact">Contact numbers</string>
 
+
+    <string name="category"> Item Category</string>
+    <string name="price">Price</string>
+    <string name="descriptionItem">Item Description</string>
+    <string name="btn1">SHOP NOW!</string>
+    <string name="text1">Lets shopping now!</string>
 </resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddHotelActivity">
+
+    <TextView
+        android:id="@+id/addH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Add A new hotel"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="@color/colorblue"
+        />
+
+    <TextView
+        android:id="@+id/addupload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/addH"
+        android:text="Touch here to upload a photo"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textColor="@color/colorblue"
+        />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/addupload"
+        android:layout_marginTop="10dp"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:background="@drawable/hotel"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:id="@+id/Ed_name_of_hotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_below="@+id/image"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/input_design"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:inputType="text"
+        android:textSize="17sp"
+        android:hint="@string/edittexthotelname"
+        android:textAlignment="center"
+        />
+
+
+    <EditText
+        android:id="@+id/Ed_description_of_hotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_below="@+id/Ed_name_of_hotel"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:background="@drawable/input_design"
+        android:hint="@string/edittexthoteldescription"
+        android:inputType="text"
+        android:textSize="17sp"
+        android:textAlignment="center"
+        />
+
+
+    <EditText
+        android:id="@+id/Ed_address_of_hotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_below="@+id/Ed_description_of_hotel"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:background="@drawable/input_design"
+        android:hint="@string/edittexthoteladdress"
+        android:inputType="text"
+        android:textSize="17sp"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/Ed_contacts_of_hotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_below="@+id/Ed_address_of_hotel"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:background="@drawable/input_design"
+        android:hint="@string/edittexthotelcontact"
+        android:inputType="textMultiLine"
+        android:textSize="17sp"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/admin_add_hotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/Ed_contacts_of_hotel"
+        android:background="@drawable/buttons"
+        android:text="@string/addHotel"
+        android:textColor="@color/cardview_light_background"
+        />
+
+</RelativeLayout>

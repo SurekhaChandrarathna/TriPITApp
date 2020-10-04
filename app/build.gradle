@@ -52,6 +52,9 @@ dependencies {
 
     implementation  'io.paperdb:paperdb:2.7.1'
 
+    //pasted for payment part
+    implementation 'com.cepheuen.elegant-number-button:lib:1.0.2'
+
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 

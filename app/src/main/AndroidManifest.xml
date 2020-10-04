@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PlaceListAdmin"></activity>
+        <activity android:name=".ConfirmFinalOrderActivity"></activity>
+        <activity android:name=".CartActivity" />
+        <activity android:name=".ShopNowActivity" />
+        <activity android:name=".ShopsAdminViewList" />
+        <activity android:name=".ShopsHomeUser" />
+        <activity android:name=".ItemDetailsActivity" />
+        <activity android:name=".AddNew" />
+        <activity android:name=".AddItems_2nd_Shops" />
+        <activity android:name=".PlaceListAdmin" />
         <activity android:name=".HotelViewDetails" />
         <activity android:name=".HotelUserActivity" />
         <activity android:name=".AddHotelActivity" />
