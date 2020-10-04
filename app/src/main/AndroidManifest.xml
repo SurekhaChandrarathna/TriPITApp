@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CustomerHomePage"></activity>
         <activity android:name=".EditGuideDetailsActivity" />
         <activity android:name=".MaintainGuidesActivity" />
         <activity android:name=".GuideHome" />

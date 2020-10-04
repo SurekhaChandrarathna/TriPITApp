@@ -25,6 +25,8 @@
     <string name="ApplyChangesButton">Apply Changes</string>
     <string name="DeleteThisGuideButton">Delete This Guide</string>
     <string name="CustomerHome">Customer Home</string>
+    <string name="invalid_name">Please enter valid name..</string>
+    <string name="invalid_mobileNumber">Please enter a valid telephone number..</string>
 
     <string-array name="navigation">
         <item>Places</item>

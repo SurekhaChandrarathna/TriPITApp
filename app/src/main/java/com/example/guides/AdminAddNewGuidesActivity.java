@@ -15,6 +15,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 
+import com.basgeekball.awesomevalidation.AwesomeValidation;
+import com.basgeekball.awesomevalidation.ValidationStyle;
+import com.basgeekball.awesomevalidation.utility.RegexTemplate;
 import com.google.android.gms.tasks.Continuation;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -45,6 +48,7 @@ public class AdminAddNewGuidesActivity extends AppCompatActivity {
     private ProgressDialog loadingBar;
 
 
+    AwesomeValidation guideawesomeValidation;
 
 
     @Override
@@ -69,6 +73,38 @@ public class AdminAddNewGuidesActivity extends AppCompatActivity {
         InputGuideAge = (EditText) findViewById(R.id.guide_age);
         InputExperience = (EditText) findViewById(R.id.guide_experiance);
         InputAmount = (EditText) findViewById(R.id.guide_amount);
+
+        //Intitialize Validation Style
+
+        guideawesomeValidation = new AwesomeValidation(ValidationStyle.BASIC);
+
+        //Add validation for name:
+        guideawesomeValidation.addValidation(this,R.id.guide_name,
+                RegexTemplate.NOT_EMPTY,R.string.invalid_name);
+
+        //Validation for telephone-number
+
+        guideawesomeValidation.addValidation(this,R.id.guide_con_number,"[5-9]{1}[0-9]{9}$",R.string.invalid_mobileNumber);
+
+        AddNewGuideButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //Check Validation
+                if(guideawesomeValidation.validate()){
+                    //On success
+                    Toast.makeText(AdminAddNewGuidesActivity.this, "Form Validate Successfully...", Toast.LENGTH_SHORT).show();
+
+                }
+                else
+                {
+                    Toast.makeText(AdminAddNewGuidesActivity.this, "Validate Failed", Toast.LENGTH_SHORT).show();
+
+                }
+            }
+        });
+
+
+
         loadingBar = new ProgressDialog(this);
 
         InputGuideImage.setOnClickListener(new View.OnClickListener() {
@@ -216,6 +252,7 @@ public class AdminAddNewGuidesActivity extends AppCompatActivity {
                             saveGuideInfoToDataBase();
 
                         }
+
 
 
                     }
