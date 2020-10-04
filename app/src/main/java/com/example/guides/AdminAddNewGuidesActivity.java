@@ -46,15 +46,16 @@ public class AdminAddNewGuidesActivity extends AppCompatActivity {
     private StorageReference GuideImageRef;
     private DatabaseReference GuidesRef;
     private ProgressDialog loadingBar;
-
-
-    AwesomeValidation guideawesomeValidation;
+    private AwesomeValidation guideawesomeValidation;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin_add_new_guides);
+        guideawesomeValidation = new AwesomeValidation(ValidationStyle.BASIC);
+
+
 
 
 
@@ -79,16 +80,25 @@ public class AdminAddNewGuidesActivity extends AppCompatActivity {
         guideawesomeValidation = new AwesomeValidation(ValidationStyle.BASIC);
 
         //Add validation for name:
-        guideawesomeValidation.addValidation(this,R.id.guide_name,
+        guideawesomeValidation.addValidation(AdminAddNewGuidesActivity.this,R.id.guide_name,
                 RegexTemplate.NOT_EMPTY,R.string.invalid_name);
 
         //Validation for telephone-number
 
-        guideawesomeValidation.addValidation(this,R.id.guide_con_number,"[5-9]{1}[0-9]{9}$",R.string.invalid_mobileNumber);
+        guideawesomeValidation.addValidation(AdminAddNewGuidesActivity.this,R.id.guide_con_number,"[5-9]{1}[0-9]{9}$",R.string.invalid_mobileNumber);
 
         AddNewGuideButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                Gname = InputGuideName.getText().toString();
+                Gconnumber = InputGuideConNumber.getText().toString();
+                Gage = InputGuideAge.getText().toString();
+                Gexperience = InputExperience.getText().toString();
+                Gamount = InputAmount.getText().toString();
+
+
+
                 //Check Validation
                 if(guideawesomeValidation.validate()){
                     //On success
